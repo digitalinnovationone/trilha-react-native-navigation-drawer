@@ -5,7 +5,7 @@ export default function GalleryScreen() {
   return (
     <View style={{ flex: 1, backgroundColor: 'blue' }}>
       <Text>Home Works!!</Text>
+      <StatusBar style='auto' />
     </View>
   )
 }
-

@@ -11,6 +11,10 @@ export function StackRoutes() {
       <Screen
         name='home'
         component={HomeScreen}
+        options={{
+          title: 'Main Menu',
+          headerTintColor: 'blue'
+        }}
       />
 
       <Screen
